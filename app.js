@@ -4,7 +4,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const sassMiddleware = require('node-sass-middleware')
-
+const cors = require('cors');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 
@@ -38,6 +38,7 @@ app.use(
 )
 
 app.use(logger('dev'));
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
