@@ -21,7 +21,8 @@ router.get('/', async function(req, res, next) {
         user: data.user,
         content: data.content,
         tags:data.tags,
-        type:data.type
+        type:data.type,
+        image: data.image
       }
     );
     handleSuccess(res, newPost);
