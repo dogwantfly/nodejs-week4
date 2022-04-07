@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "1fc509c8-cc96-4fe7-a4cb-8198479a1d57",
-		"name": "posts - heroku - week3",
+		"_postman_id": "0e440782-6ca7-4334-a954-a962948920a8",
+		"name": "posts - heroku - week4",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -11,10 +11,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://quiet-dawn-95060.herokuapp.com/posts",
+					"raw": "https://obscure-basin-73103.herokuapp.com/posts",
 					"protocol": "https",
 					"host": [
-						"quiet-dawn-95060",
+						"obscure-basin-73103",
 						"herokuapp",
 						"com"
 					],
@@ -32,7 +32,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"content\": \"測試3\",\n  \"name\": \"測試貼文\",\n  \"type\": \"person\",\n  \"tags\": [\"感情\"]\n}\n",
+					"raw": "{\n  \"content\": \"測試3\",\n  \"user\": \"624db34461939813513ce238\",\n  \"type\": \"person\",\n  \"tags\": [\"感情\"]\n}\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -69,7 +69,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://quiet-dawn-95060.herokuapp.com/posts/624342b92c741e2d9dc4e10c",
+					"raw": "https://quiet-dawn-95060.herokuapp.com/posts/624349e0361e0eb3ad1d6e5f",
 					"protocol": "https",
 					"host": [
 						"quiet-dawn-95060",
@@ -78,7 +78,7 @@
 					],
 					"path": [
 						"posts",
-						"624342b92c741e2d9dc4e10c"
+						"624349e0361e0eb3ad1d6e5f"
 					]
 				}
 			},
@@ -90,7 +90,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://quiet-dawn-95060.herokuapp.com/posts/624349e0361e0eb3ad1d6e5e",
+					"raw": "https://quiet-dawn-95060.herokuapp.com/posts/624efd5ce43991394e4adcf6",
 					"protocol": "https",
 					"host": [
 						"quiet-dawn-95060",
@@ -99,7 +99,7 @@
 					],
 					"path": [
 						"posts",
-						"624349e0361e0eb3ad1d6e5e"
+						"624efd5ce43991394e4adcf6"
 					]
 				}
 			},
