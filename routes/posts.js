@@ -48,6 +48,7 @@ router.get('/', async function(req, res, next) {
     if(data.content){
       const editContent = {
         content: data.content,
+        likes: data.likes
       };
       const editPost = await Post.findByIdAndUpdate(id,editContent, {new: true});
       handleSuccess(res, editPost);
